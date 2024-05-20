@@ -33,24 +33,24 @@ a{
     color:#2E2F42;
 }
 ::after{
-    content: '' ;
+    content: '';
     width: 100%;
-    position: absolute;
+    position: absolute; 
     left: 0; 
-    bottom: -1px;
-    height: 4px;
+    bottom: -1px; 
+    height: 4px; 
     background-color: #404bbf; 
-    border-radius: 2px; 
+    border-radius: 2px;
 }
-
 
 .cialo{
     margin:0;
+   
     
 }
 .top{
+    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 .top__container {
     display: flex;
@@ -63,9 +63,7 @@ a{
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
-    display: flex; 
-    align-items: baseline; 
+    padding: 0 15px; 
 }
 .top{
     font-family:"Roboto",sans-serif;
@@ -76,6 +74,12 @@ a{
     letter-spacing:0.02em;
     background-color:#E7E9FC;
 }
+.pierwszylink{
+    position: relative;
+    color: #404bbf;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
 .logonav{
     display: flex;
     align-items: center;
@@ -125,9 +129,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 2%;
-
 }
-
 .addresslist a:hover{
 color:#4d5ae5;
 }
@@ -139,31 +141,13 @@ gap:40px;
 }
 .contactitem:not(:last-child) {
    margin-right:30px; 
-
 }
 .add{
-    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .pierwszal{
     color:#2E2F42;
     padding: 24px 0;
-}
-.elpierwszy{
-    position: relative; 
-    color: #404bbf;
-    padding: 24px 0;
-    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.elpierwszy:hover{
-    color:#404bbf;
-}
-.elpierwszy:focus{
-    color:#404bbf;
-}
-.elpierwszy:active{
-    color:#404bbf;
-    text-decoration: underline;
 }
 .pierwszal:hover{
     color:#404bbf;
@@ -178,12 +162,12 @@ gap:40px;
 .first{
     background-image:url(https://s3-alpha-sig.figma.com/img/7c8d/46d4/7e83b6c8ee4603ea892aa8aaebb3c5fe?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XgPgQhLRIFeQbOxHKRcJ9qcTgGfpFQ3-KEcEkmntca4pGO34zDKeq5YcQTFkWoktB0FUDkJwH5R210JL2z~e0loMZqW9LW~SRQzKSG5gsh9ohnu-ABgyiYcduh6mdbnDI3cJOKL83bdUQaNFnONLQKjmQnO1HKQIV-vwgSFs-dacpgwq8r43tsGWWCcic1EWIQa4OAGKFhz59lw7BZd3pdqHsf-t5zolmbLPR0SlMqug-hLw-z~tisX2B-3uGwWyQJ1IT3wRZkw7Knj7ml-YcQvtQpkxRKRe74qaiqehERs1QUCwmhzaqkSX--Jo2AF6Z2J93A9rcR2-zK7nhZLe~Q__) ;
     background-color:#2E2F42;
-    background-repeat: no-repeat;
-    background-position:center center;
-background-size: cover;
-background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/heroimage.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/heroimage.jpg);
     padding: 188px 0;
-    max-width: 1440px; 
+    max-width: 1440px;
 }
 .title{
     display: flex;
@@ -215,9 +199,9 @@ max-width: 496px;
     margin-top:30px ;
     border-radius: 4px; 
     margin-left:450px;
-}
-.btn{
-   transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+
 }
 .btn:hover{
     background-color: #404BBF;
@@ -290,12 +274,12 @@ max-width: 496px;
     align-items: center;
     justify-content: center;
     list-style-type: none;
-    border:1px solid #F4F4FD;
+    border:1px solid white;
     border-radius: 0px 0px 4px 4px;
     background-color: #ffffff;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
     flex-direction: column;
-    width: calc((100% - 72px) / 4);    
+    width: calc((100% - 72px) / 4); 
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);   
     }  
     .pierwszy:last-child {
         margin-right: 0;
@@ -363,15 +347,14 @@ width: calc((100% - 48px) / 3);
 position: relative;
 text-align: center;
 overflow: hidden;
-transition:all;
+transition: opacity 0.5s ease; 
+}
+.aplikacje:hover{
+    box-shadow:0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .aplikacje{
     margin-bottom: 8px;
     list-style-type: none;
-
-}
-.aplikacje:hover{
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66. 0.08);
 }
 .pierwszy img {
     max-width: 100%; 
@@ -382,9 +365,7 @@ transition:all;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
-    
 }
-
 .www{
      text-align: left;
      line-height: 1.5;
@@ -445,191 +426,120 @@ transition:all;
     line-height: 1.5;
     letter-spacing: 0.02em; 
 }
-.socials{
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap:24px;
-    justify-content: center; 
-}
-.backgroundd{
-    background-color: #4D5AE5;
-    border-radius: 50%;
-    transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
-display: flex;
-align-items: center;
-justify-content: center;
-width: 40px;
-height: 40px;
-
-}
-.backgroundd:hover{
-    background-color: #404BBF;
-}
-
-.ikonki{
-    fill: #f4f4fd;
-}
-
-.overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 360px;
-    height: 300px;
-    background-color:#4D5AE5;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-.overlay:hover{
-    opacity: 100%;
-   
-}
-.overlaytekst{
-    font-family:"Roboto",sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-    display: flex;
-  justify-content:center;
- top:0;
- left:0;
- position: absolute;
- padding: 40px 32px;
- background-color: #4D5AE5;
-  height: 100%;
-  width: 100%;
-  transform:translateY(100%); 
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-}
-.parent:hover .overlaytekst{
-    transform:translateY(0);
-}
-.imagecont{
-    position: relative;
-    display: inline-block;
-    overflow: auto;
-}
-
-.listaikon{
-    list-style-type: none;
-
-    
-    display: flex;
-    margin: 0;
-    padding: 0;
-    
-}
-.ikonysekcja{
-background-color: #F4F4FD;
-width:264px;
-height:112px;
-border: 1px solid #8E8F99;
-    display: flex;
-align-items: center;
-justify-content: center;
-margin-bottom:7px ;
-}
-.stopkasocial{
-    font-family:"Roboto",sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:#FFFFFF;
-    margin-bottom: 16px; 
-}
-
-.stopkaikon{
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap:16px;
-    position: relative;
-    
-}
-.listastopka{
-background-color: #4D5AE5;
-border-radius: 50%;
-height:40px;
-width:40px; 
-display: flex;
-align-items: center;
-justify-content: center;
-
-}
-.listastopka:hover{
-    background-color: #31D0AA;
-}
-.ikonysekcjadruga{
+.kontenersekcjadruga{
     display: flex; 
-    align-items: center; 
-    justify-content: center;
+    align-items: center;
+    justify-content: center; 
     height: 112px; 
     background-color: #f4f4fd; 
     border-radius: 4px; 
     border: 1px solid #8e8f99;
     margin-bottom: 8px; 
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
-.linkasociale{
+.listamediow{
+    display: flex; 
+    justify-content: center;
+    gap: 24px; 
+    list-style-type: none;
+}
+.elementlistymediow{
+    width: 40px; 
+    height: 40px; 
+
+}
+.linkelementowlisty{
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
-    border-radius: 50%;
+    border-radius:  50%;
     display: flex; 
     align-items: center; 
     justify-content: center; 
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
 }
-.linkasociale:hover{
+.linkelementowlisty:hover{
     background-color: #404bbf; 
 }
-
-.linkasociale:active{
+.linkelementowlisty:focus{
     background-color: #404bbf; 
 }
-.linkasosciale:focus{
+.linkelementowlisty:active{
     background-color: #404bbf; 
+}
+.ikonymediowteam{
+    fill: #f4f4fd;
+}
+.obrazek{
+    position: relative;
+    overflow: hidden;
+}
+.paragraf{
+    top:0;
+    left:0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding:40px 32px;
+    background-color: #4d5ae5;
+    color:#F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.obrazek:hover .paragraf{
+    transform: translateY(0);
 }
 .stopkakontener{
-    display: flex; 
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px; 
+    display: flex;
     align-items: baseline;
+
 }
 .logoiparagraf{
-    margin-right: 120px
+    margin-right: 120px; 
 }
-.linkstopka{
+.akapitsocial{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#FFFFFF;   
+    margin-bottom: 16px; 
+}
+.listawstopce{
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+
+}
+.pierwszyelementwstopce{
+    width: 40px;
+    height: 40px;
+  
+
+}
+.odnosnikwstopce{
     width: 100%;
     height: 100%;
     background-color:#4d5ae5;
-    border-radius:50%;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.linkstopka:hover{
-    background-color: #31d0aa;
-}
-.linkstopka:focus{
-    background-color: #31d0aa;
-}
-.linkstopka:active{
-    background-color: #31d0aa; 
-}
-.klasastopki{
-    fill:#f4f4fd;
+    border-radius: 50%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 
 }
-.parent{
-    position: relative;
-    overflow: hidden;
+.odnosnikwstopce:hover{
+    background-color: #31d0aa; 
+}
+.odnosnikwstopce:focus:active{
+    background-color: #31d0aa; 
+}
+.mediawstopceikony{
+    fill:#f4f4fd;
 }

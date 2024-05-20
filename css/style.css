@@ -461,12 +461,10 @@ transition: opacity 0.3s ease;
 .linkelementowlisty:hover{
     background-color: #404bbf; 
 }
-.linkelementowlisty:focus{
+.linkelementowlisty:focus .linkelementowlisty:active{
     background-color: #404bbf; 
 }
-.linkelementowlisty:active{
-    background-color: #404bbf; 
-}
+
 .ikonymediowteam{
     fill: #f4f4fd;
 }
@@ -537,8 +535,8 @@ transition: opacity 0.3s ease;
 .odnosnikwstopce:hover{
     background-color: #31d0aa; 
 }
-.odnosnikwstopce:focus:active{
-    background-color: #31d0aa; 
+.odnosnikwstopce:focus, .odnosnikwstopce:active {
+    background-color: #31d0aa;
 }
 .mediawstopceikony{
     fill:#f4f4fd;

@@ -371,7 +371,7 @@ transition:all;
 
 }
 .aplikacje:hover{
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46,47,66,0.16), 0px 1px 6px 0px rgba(46,47,66.0.08);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66. 0.08);
 }
 .pierwszy img {
     max-width: 100%; 
@@ -456,13 +456,15 @@ transition:all;
 .backgroundd{
     background-color: #4D5AE5;
     border-radius: 50%;
-width: 40px;
-height: 40px;
+    transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
 display: flex;
 align-items: center;
 justify-content: center;
-transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
+width: 40px;
+height: 40px;
+
 }
 .backgroundd:hover{
     background-color: #404BBF;
@@ -590,7 +592,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #404bbf; 
 }
 
-.linkasociale:active:focus{
+.linkasociale:active{
+    background-color: #404bbf; 
+}
+.linkasosciale:focus{
     background-color: #404bbf; 
 }
 .stopkakontener{
@@ -619,9 +624,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .klasastopki{
     fill:#f4f4fd;
 
-}
-.imagecont{
-    overflow: ;
 }
 .parent{
     position: relative;

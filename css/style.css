@@ -32,7 +32,7 @@ img{
 a{
     color:#2E2F42;
 }
-::after{
+.pierwszylink::after{
     content: '';
     width: 100%;
     position: absolute; 
@@ -473,6 +473,7 @@ overflow: hidden;
     overflow: hidden;
 }
 .paragraf{
+    font-family:"Roboto",sans-serif;
     top:0;
     left:0;
     position: absolute;
@@ -502,6 +503,7 @@ overflow: hidden;
     margin-right: 120px; 
 }
 .akapitsocial{
+    font-family:"Roboto",sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;

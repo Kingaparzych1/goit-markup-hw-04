@@ -54,6 +54,7 @@ a{
 }
 .top__container {
     display: flex;
+    justify-content: space-between; 
 }
 .top__container .container {
     width: 1158px;
@@ -72,12 +73,13 @@ a{
     font-size: 16px;
     line-height:24px;
     letter-spacing:0.02em;
-    background-color:#E7E9FC;
+    background-color:#FFFFFF;
 }
 .pierwszylink{
     position: relative;
     color: #404bbf;
     transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    padding: 24px 0; 
 }
 
 .logonav{
@@ -118,16 +120,18 @@ a{
 .addresslist {
     display: flex;
     
+
 }
+ .adresywnaglowko{
+    display: flex;  
+    align-items: center;
+ }
 .addresslist{
 text-decoration: none;
 list-style-type: none;
-padding-left:300px ;
-padding-top:21px;
 font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
 letter-spacing: 2%;
 }
 .addresslist a:hover{
@@ -241,7 +245,7 @@ max-width: 496px;
         margin-bottom: 8px; 
     }
     .akapit {
-     margin-bottom: 24px;
+   
     }
     .team {
     background-color: #F4F4FD;
@@ -250,12 +254,12 @@ max-width: 496px;
     justify-content: center; 
     }
    .titlee { 
-    padding-bottom:150px;
+   
     display: flex;
     align-items:center;
     justify-content: center;
     margin-bottom:72px; 
-    padding-top:100px;
+  
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -364,7 +368,7 @@ overflow: hidden;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+  
 }
 .www{
      text-align: left;
@@ -418,7 +422,7 @@ overflow: hidden;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:#4d5ae5;
-    margin-bottom: 16px;
+  
 }
 .lastt{
     max-width: 264px;
@@ -488,7 +492,7 @@ overflow: hidden;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.obrazek:hover .paragraf{
+.aplikacje:hover .obrazek .paragraf{
     transform: translateY(0);
 }
 .stopkakontener{

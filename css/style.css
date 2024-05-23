@@ -243,6 +243,7 @@ max-width: 496px;
      height:0 auto; 
 }
     .mikro{
+        font-weight: 500;
         margin-bottom: 8px; 
     }
     .akapit {
